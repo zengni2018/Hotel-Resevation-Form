@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>question 3</title>
+</head>
+
+<body>
+	<h1>Hotel Resevation Form</h1>
+	<form >
+	<fieldset>
+		<legend>Resevation Information</legend>
+        Number of rooms(max 5 people per room):
+        <input type="text" name="Number of rooms">
+        <br>
+        Smoker?
+        <input type="radio" name="Smoker" value="yes" checked="checked">Yes
+        <input type="radio" name="Smoker" value="no" >No
+        <br>
+        Check-in:
+        <input type="date" name="Check-in" >
+        <br>
+        Check-out:
+        <input type="date" name="Check-in" >
+    </fieldset>
+<br>
+<br>
+
+	<fieldset>
+		<legend>Room Specification</legend>
+        <ul>
+		<li>Number of single/double beds:</li>
+		<input type="checkbox" name="Number of single/double beds" value="0/2" checked="checked">0/2
+		<input type="checkbox" name="Number of single/double beds" value="2/0">2/0
+		<input type="checkbox" name="Number of single/double beds" value="1/1">1/1
+		<input type="checkbox" name="Number of single/double beds" value="0/2">0/2
+		<input type="checkbox" name="Number of single/double beds" value="1/2">1/2
+        <li>Do you have the prefered location for the hotel</li>
+        <input type="checkbox" name="location" value="Downtown" checked="checked">Downtown
+		<input type="checkbox" name="location" value="Montreal East">Montreal East
+		<input type="checkbox" name="location" value="Montreal west"> Montreal west
+		<input type="checkbox" name="location" value="Near to the airport">Near to the airport
+		<input type="checkbox" name="location" value="Old port">Old port
+		<input type="checkbox" name="location" value="Dont care">Dont care
+        <li>Price range /per night</li> 
+        <select>
+        	<option value="100-200">100-200</option>
+        	<option value="200-300">200-300</option>
+        	<option value="300-400">300-400</option>
+        	<option value="400-500">400-500</option>
+        	<option value=">500">>500</option>
+        </select>
+        <li>Number of private parking</li>
+        <br>
+        <input type="radio" name="num parking" value="0" checked="checked">0
+        <input type="radio" name="num parking" value="1">1
+        <input type="radio" name="num parking" value="2">2
+        <input type="radio" name="num parking" value="3">3
+        <input type="radio" name="num parking" value="4">4
+        <li>Special facilities</li>
+        <br>
+        <input type="checkbox" name="facilities" value="Minibar" checked="checked">Minibar
+        <input type="checkbox" name="facilities" value="Balcony">Balcony
+        <input type="checkbox" name="facilities" value="Pool">Pool
+        <input type="checkbox" name="facilities" value="Water Front">Water Front
+        <input type="checkbox" name="facilities" value="Garden Front">Garden Front
+	</ul>
+</fieldset>
+<br>
+	
+let's see what we can find....
+<br>
+<input type="submit"  value="Search">
+<input type="reset"  value="Start over" > 
+
+</form>
+
+</body>
+</html>
